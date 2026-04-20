@@ -7,7 +7,7 @@ SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 SENDER = "szczjr@gmail.com"
 APP_PASSWORD = "muzk jdcx qsqz maix"
-RECIPIENTS = ["szczjr@gmail.com", "aneta.hoschlova@gmail.com"]
+RECIPIENTS = ["szczjr@gmail.com"]
 
 # Optional: override subject via command-line argument
 subject = sys.argv[1] if len(sys.argv) > 1 else "Praha 10 Newsletter"
