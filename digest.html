@@ -5,64 +5,86 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Newsletter Praha 10 | 27. dubna – 11. května 2026</title>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+3:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,400&family=Source+Sans+3:wght@300;400;600&display=swap');
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 body {
-  font-family: 'Source Sans 3', 'Georgia', serif;
-  background: #f9f8f6;
-  color: #1a1a1a;
-  line-height: 1.7;
+  font-family: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+  background: #ffffff;
+  color: #121212;
+  line-height: 1.75;
   font-size: 17px;
   -webkit-font-smoothing: antialiased;
 }
 
 .container {
-  max-width: 640px;
+  max-width: 600px;
   margin: 0 auto;
-  padding: 48px 24px;
+  padding: 40px 20px 48px;
 }
 
 .header {
-  border-bottom: 3px double #1a1a1a;
-  padding-bottom: 20px;
-  margin-bottom: 32px;
   text-align: center;
+  padding-bottom: 24px;
+  margin-bottom: 28px;
+}
+
+.header .rule-top {
+  display: block;
+  width: 100%;
+  height: 4px;
+  background: #121212;
+  margin-bottom: 16px;
+}
+
+.header .rule-thin {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #121212;
+  margin-bottom: 16px;
 }
 
 .header h1 {
   font-family: 'Playfair Display', Georgia, serif;
-  font-size: 32px;
+  font-size: 42px;
   font-weight: 700;
-  letter-spacing: -0.5px;
-  margin-bottom: 6px;
+  letter-spacing: -1px;
+  line-height: 1.1;
+  margin-bottom: 8px;
 }
 
 .header .date {
-  font-size: 14px;
+  font-family: 'Source Sans 3', Helvetica, Arial, sans-serif;
+  font-size: 12px;
   color: #666;
   text-transform: uppercase;
-  letter-spacing: 1.5px;
+  letter-spacing: 2px;
 }
 
 .intro {
   font-size: 16px;
-  color: #444;
-  margin-bottom: 36px;
+  font-style: italic;
+  color: #333;
+  margin-bottom: 32px;
   line-height: 1.8;
-  border-left: 2px solid #ccc;
-  padding-left: 16px;
+  padding: 16px 0;
+  border-top: 1px solid #e2e2e2;
+  border-bottom: 1px solid #e2e2e2;
 }
 
 h2 {
-  font-family: 'Playfair Display', Georgia, serif;
-  font-size: 22px;
-  font-weight: 700;
-  margin-top: 40px;
-  margin-bottom: 18px;
-  padding-bottom: 8px;
-  border-bottom: 1px solid #ddd;
+  font-family: 'Source Sans 3', Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #121212;
+  margin-top: 36px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #121212;
 }
 
 ul {
@@ -71,48 +93,63 @@ ul {
 }
 
 ul li {
-  margin-bottom: 22px;
-  padding-left: 14px;
-  border-left: 2px solid #e0ddd8;
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+ul li:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .event-title {
-  font-weight: 600;
-  font-size: 17px;
-  color: #1a1a1a;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.3;
+  color: #121212;
+  margin-bottom: 4px;
 }
 
 .event-meta {
-  font-size: 14px;
-  color: #777;
-  margin-top: 2px;
+  font-family: 'Source Sans 3', Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  color: #888;
+  margin-top: 4px;
+  letter-spacing: 0.3px;
 }
 
 .event-desc {
-  font-size: 15px;
-  color: #444;
-  margin-top: 4px;
-  line-height: 1.6;
+  font-size: 16px;
+  color: #333;
+  margin-top: 6px;
+  line-height: 1.7;
 }
 
 .footer {
-  margin-top: 48px;
-  padding-top: 20px;
-  border-top: 3px double #1a1a1a;
-  font-size: 13px;
+  margin-top: 40px;
+  padding-top: 16px;
+  border-top: 4px solid #121212;
+  font-family: 'Source Sans 3', Helvetica, Arial, sans-serif;
+  font-size: 11px;
   color: #999;
   text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
 }
 
 a {
-  color: #1a1a1a;
-  text-decoration: underline;
-  text-decoration-color: #ccc;
-  text-underline-offset: 2px;
+  color: #121212;
+  text-decoration: none;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1px;
+  transition: border-color 0.2s;
 }
 
 a:hover {
-  text-decoration-color: #1a1a1a;
+  border-bottom-color: #121212;
 }
 </style>
 </head>
@@ -120,6 +157,8 @@ a:hover {
 <div class="container">
 
   <div class="header">
+    <span class="rule-top"></span>
+    <span class="rule-thin"></span>
     <h1>Praha 10</h1>
     <div class="date">Newsletter 27. dubna – 11. května 2026</div>
   </div>
