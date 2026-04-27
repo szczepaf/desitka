@@ -5,45 +5,29 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Newsletter Praha 10 | 27. dubna – 11. května 2026</title>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,400&family=Source+Sans+3:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+3:wght@300;400;600&display=swap');
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 body {
-  font-family: 'Source Serif 4', Georgia, 'Times New Roman', serif;
-  background: #ffffff;
-  color: #121212;
-  line-height: 1.75;
+  font-family: 'Source Sans 3', Georgia, serif;
+  background: #f9f8f6;
+  color: #1a1a1a;
+  line-height: 1.7;
   font-size: 17px;
   -webkit-font-smoothing: antialiased;
 }
 
 .container {
-  max-width: 600px;
+  max-width: 640px;
   margin: 0 auto;
-  padding: 40px 20px 48px;
+  padding: 48px 24px;
 }
 
 .header {
   text-align: center;
-  padding-bottom: 24px;
-  margin-bottom: 28px;
-}
-
-.header .rule-top {
-  display: block;
-  width: 100%;
-  height: 4px;
-  background: #121212;
-  margin-bottom: 16px;
-}
-
-.header .rule-thin {
-  display: block;
-  width: 100%;
-  height: 1px;
-  background: #121212;
-  margin-bottom: 16px;
+  padding-bottom: 20px;
+  margin-bottom: 32px;
 }
 
 .header h1 {
@@ -57,34 +41,38 @@ body {
 
 .header .date {
   font-family: 'Source Sans 3', Helvetica, Arial, sans-serif;
-  font-size: 12px;
+  font-size: 13px;
   color: #666;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
+  margin-bottom: 16px;
+}
+
+.header .rule {
+  display: block;
+  width: 100%;
+  height: 3px;
+  background: #1a1a1a;
 }
 
 .intro {
   font-size: 16px;
-  font-style: italic;
-  color: #333;
-  margin-bottom: 32px;
+  color: #666;
+  margin-bottom: 36px;
   line-height: 1.8;
-  padding: 16px 0;
-  border-top: 1px solid #e2e2e2;
-  border-bottom: 1px solid #e2e2e2;
+  border-left: 2px solid #ccc;
+  padding-left: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 h2 {
-  font-family: 'Source Sans 3', Helvetica, Arial, sans-serif;
-  font-size: 13px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  color: #121212;
-  margin-top: 36px;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-top: 40px;
   margin-bottom: 20px;
-  padding-bottom: 10px;
-  border-bottom: 2px solid #121212;
 }
 
 ul {
@@ -93,63 +81,49 @@ ul {
 }
 
 ul li {
-  margin-bottom: 24px;
-  padding-bottom: 24px;
-  border-bottom: 1px solid #e2e2e2;
-}
-
-ul li:last-child {
-  border-bottom: none;
-  margin-bottom: 0;
-  padding-bottom: 0;
+  margin-bottom: 22px;
+  padding-left: 16px;
+  border-left: 3px solid #1a1a1a;
 }
 
 .event-title {
-  font-family: 'Playfair Display', Georgia, serif;
   font-weight: 700;
-  font-size: 20px;
-  line-height: 1.3;
-  color: #121212;
-  margin-bottom: 4px;
+  font-size: 17px;
+  color: #1a1a1a;
+  line-height: 1.4;
 }
 
 .event-meta {
-  font-family: 'Source Sans 3', Helvetica, Arial, sans-serif;
-  font-size: 13px;
+  font-size: 14px;
   color: #888;
-  margin-top: 4px;
-  letter-spacing: 0.3px;
+  margin-top: 2px;
 }
 
 .event-desc {
-  font-size: 16px;
-  color: #333;
-  margin-top: 6px;
-  line-height: 1.7;
+  font-size: 15px;
+  color: #444;
+  margin-top: 4px;
+  line-height: 1.6;
 }
 
 .footer {
-  margin-top: 40px;
-  padding-top: 16px;
-  border-top: 4px solid #121212;
-  font-family: 'Source Sans 3', Helvetica, Arial, sans-serif;
-  font-size: 11px;
+  margin-top: 48px;
+  padding-top: 20px;
+  border-top: 3px solid #1a1a1a;
+  font-size: 13px;
   color: #999;
   text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
 }
 
 a {
-  color: #121212;
-  text-decoration: none;
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 1px;
-  transition: border-color 0.2s;
+  color: #1a1a1a;
+  text-decoration: underline;
+  text-decoration-color: #ccc;
+  text-underline-offset: 2px;
 }
 
 a:hover {
-  border-bottom-color: #121212;
+  text-decoration-color: #1a1a1a;
 }
 </style>
 </head>
@@ -157,10 +131,9 @@ a:hover {
 <div class="container">
 
   <div class="header">
-    <span class="rule-top"></span>
-    <span class="rule-thin"></span>
     <h1>Praha 10</h1>
     <div class="date">Newsletter 27. dubna – 11. května 2026</div>
+    <span class="rule"></span>
   </div>
 
   <div class="intro">
@@ -172,7 +145,7 @@ a:hover {
     <li>
       <div class="event-title"><a href="https://www.stanicegalaxie.cz/en">Vernisáž výstavy Doma – Kulturní stanice Galaxie</a></div>
       <div class="event-meta">28. dubna, 18:00 | Arkalycká 877, Praha 4 – Háje</div>
-      <div class="event-desc">Slavnostní zahájení výstavy současného umění zkoumající paměť a tělesnost. Výstava bude otevřena do 21. června, denně 14:00–19:30.</div>
+      <div class="event-desc">Slavnostní zahájení výstavy současného umění zkoumající paměť a tělesnost. Výstava potrvá do 21. června, denně 14:00–19:30.</div>
     </li>
     <li>
       <div class="event-title"><a href="https://www.stanicegalaxie.cz/en">Kde je ta ryba? – Dejvické divadlo v Galaxii</a></div>
@@ -196,7 +169,7 @@ a:hover {
     <li>
       <div class="event-title"><a href="https://www.prazskypatriot.cz/carodejnice-na-desitce/">Čarodějnice na Desítce</a></div>
       <div class="event-meta">30. dubna, 14:00–16:00 | Kubánské náměstí, Praha 10</div>
-      <div class="event-desc">Opékání buřtů, soutěže a program pro předškolní děti a rodiny s dětmi. Pořádá MČ Praha 10.</div>
+      <div class="event-desc">Opékání buřtů, soutěže a program pro předškolní děti a rodiny. Pořádá MČ Praha 10.</div>
     </li>
     <li>
       <div class="event-title"><a href="https://praha10.cz/kalendar/artmid/7689/evr/16/cviceni-maminky-s-detmi-tanecni-centrum-indance">Cvičení maminky s dětmi – Taneční centrum InDance</a></div>
@@ -213,14 +186,54 @@ a:hover {
   <h2>V knihovnách na Praze 10</h2>
   <ul>
     <li>
-      <div class="event-title"><a href="https://www.prazskestromy.cz/akce/29-4-2026-1630-praha-10-dendrologicka-vychazka/">Dendrologická vycházka na rozhraní Malešic a Strašnic</a></div>
-      <div class="event-meta">29. dubna, 16:30 | Sraz před knihovnou Malešice, Počernická 524/64</div>
-      <div class="event-desc">Jarní procházka s dendrologem Alešem Rudlem. Seznámíte se s druhovou skladbou stromů na rozhraní dvou čtvrtí. Pořádá Pražské stromy ve spolupráci s MČ Praha 10.</div>
+      <div class="event-title"><a href="https://www.mlp.cz/cz/pobocky/hostivar/">Cesta do pohádky – Knihovna Hostivař</a></div>
+      <div class="event-meta">27. dubna, 17:00–18:00 | Trhanovské nám. 2040/8, Praha 10</div>
+      <div class="event-desc">Pohádkový program pro rodiče s dětmi. Vstup zdarma.</div>
     </li>
     <li>
-      <div class="event-title"><a href="https://www.mlp.cz/cz/akce">Mika – dětský program v knihovně Malešice</a></div>
-      <div class="event-meta">4.–5. května, 17:00–18:30 | Počernická 524/64, Praha 10</div>
-      <div class="event-desc">Program pro děti v malešické pobočce Městské knihovny. Vstup zdarma.</div>
+      <div class="event-title"><a href="https://www.mlp.cz/cz/pobocky/malesice/">Čtení pro děti – Knihovna Malešice</a></div>
+      <div class="event-meta">28. dubna, 10:00–11:00 | Počernická 524/64, Praha 10</div>
+      <div class="event-desc">Dopolední čtení pro rodiče s dětmi. Vstup zdarma.</div>
+    </li>
+    <li>
+      <div class="event-title"><a href="https://www.prazskestromy.cz/akce/29-4-2026-1630-praha-10-dendrologicka-vychazka/">Dendrologická vycházka – sraz u Knihovny Malešice</a></div>
+      <div class="event-meta">29. dubna, 16:30 | Počernická 524/64, Praha 10</div>
+      <div class="event-desc">Jarní procházka s dendrologem Alešem Rudlem po rozhraní Malešic a Strašnic. Pořádá Pražské stromy ve spolupráci s MČ Praha 10. Vstup zdarma.</div>
+    </li>
+    <li>
+      <div class="event-title"><a href="https://www.mlp.cz/cz/pobocky/zahradni-mesto/">Příběhová zahrada: kulihrášek – Knihovna Zahradní Město</a></div>
+      <div class="event-meta">29. dubna, 15:00–16:00 | Topolová 2961/12a, Praha 10</div>
+      <div class="event-desc">Pohádkový program s hrou pro rodiče a děti. Vstup zdarma.</div>
+    </li>
+    <li>
+      <div class="event-title"><a href="https://www.mlp.cz/cz/pobocky/korunni/">VR film Allumette – Knihovna Korunní</a></div>
+      <div class="event-meta">29. dubna, 16:00–18:30 | Korunní 68, Praha 10</div>
+      <div class="event-desc">Projekce filmu ve virtuální realitě. Vhodné pro rodiny i dospělé. Vstup zdarma.</div>
+    </li>
+    <li>
+      <div class="event-title"><a href="https://www.mlp.cz/cz/pobocky/korunni/">Pohádky z oslíkovy přihrádky – Knihovna Korunní</a></div>
+      <div class="event-meta">30. dubna, 16:00–17:00 | Korunní 68, Praha 10</div>
+      <div class="event-desc">Čtení pohádek a hry pro rodiny s dětmi. Vstup zdarma.</div>
+    </li>
+    <li>
+      <div class="event-title"><a href="https://www.mlp.cz/cz/pobocky/zahradni-mesto/">Tou Jou ateliér: představení Cvok – Knihovna Zahradní Město</a></div>
+      <div class="event-meta">4. května, 18:00–19:00 | Topolová 2961/12a, Praha 10</div>
+      <div class="event-desc">Divadelní představení pro mládež. Vstup zdarma.</div>
+    </li>
+    <li>
+      <div class="event-title"><a href="https://www.mlp.cz/cz/pobocky/hostivar/">Pojď si hrát: deskové hry – Knihovna Hostivař</a></div>
+      <div class="event-meta">4. května, 16:00–17:00 | Trhanovské nám. 2040/8, Praha 10</div>
+      <div class="event-desc">Odpoledne s deskovými hrami pro rodiče a děti. Vstup zdarma.</div>
+    </li>
+    <li>
+      <div class="event-title"><a href="https://www.mlp.cz/cz/pobocky/zahradni-mesto/">Příběhová zahrada: robot – Knihovna Zahradní Město</a></div>
+      <div class="event-meta">6. května, 15:00–16:00 | Topolová 2961/12a, Praha 10</div>
+      <div class="event-desc">Pohádkový program s robotickou tematikou pro děti. Vstup zdarma.</div>
+    </li>
+    <li>
+      <div class="event-title"><a href="https://www.mlp.cz/cz/pobocky/skalka/">Čtenářský klub – Knihovna Skalka</a></div>
+      <div class="event-meta">6. května, 17:00–18:00 | Lounských 4, Praha 10</div>
+      <div class="event-desc">Pravidelné setkání čtenářů nad společně vybranou knihou. Vstup zdarma.</div>
     </li>
   </ul>
 
@@ -229,7 +242,7 @@ a:hover {
     <li>
       <div class="event-title"><a href="https://praha10.cz/zivot-v-praze-10/aktualne/aktuality-z-mestske-casti/artmid/8652?articleid=5097">Běžecké trasy s průvodcem – Meandry Botiče</a></div>
       <div class="event-meta">28. dubna, 18:00 | Sraz: Zámek Záběhlice, Praha 10</div>
-      <div class="event-desc">Běh s průvodcem krásnou přírodou podél meandrujícího Botiče. Pořádá MČ Praha 10 v rámci programu Sportujeme s Desítkou.</div>
+      <div class="event-desc">Běh s průvodcem podél meandrujícího Botiče. Pořádá MČ Praha 10 v rámci programu Sportujeme s Desítkou.</div>
     </li>
     <li>
       <div class="event-title"><a href="https://praha10.cz/sportujemesdesitkou">Jóga ve školách – Sportujeme s Desítkou</a></div>
@@ -248,7 +261,7 @@ a:hover {
     <li>
       <div class="event-title"><a href="https://loosikov.webnode.cz/products/kralik-v-radiu-kavarna-s-detskym-koutkem-praha-10/">Králík v rádiu – kavárna s dětskou hernou a chůvou</a></div>
       <div class="event-meta">Po–Pá 9:00–19:00, So–Ne 10:00–19:00 | Charkovská 18, Praha 10 – Vršovice</div>
-      <div class="event-desc">Retro rodinná kavárna a restaurace s velkou dětskou hernou. Chůva bezplatně dohlédne na děti, zatímco rodiče si v klidu dají jídlo a kávu. WiFi zdarma.</div>
+      <div class="event-desc">Retro rodinná kavárna a restaurace s velkou dětskou hernou. Chůva bezplatně dohlédne na děti, zatímco rodiče si v klidu dají jídlo a kávu.</div>
     </li>
   </ul>
 

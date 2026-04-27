@@ -5,7 +5,7 @@ Zaměřuj se na následující oblasti:
 2) Odehrává se na Praze 10 nějaká zajímavá kulturní akce? Například koncert, architektonická procházka, vernisáž, apod.?
 3) Jaké probíhají zajímavé výstavy na Praze 10? Udělej výběr z nich. Může se jednat o umění i muzea. 
 4) Pořádají se nějaké zajímavé akce pro rodiče s dětmi, zejména. zpívánky, cvičení, etc.? 
-5) Podívej se na weby městské knihovny VŠECH poboček na Praze 10 a vyber zajímavé akce, co se v nich Pořádají
+5) DŮKLADNĚ projdi weby Městské knihovny v Praze (mlp.cz/cz/akce) a zkontroluj program KAŽDÉ pobočky na Praze 10 a v blízkém okolí: Zahradní Město (Topolová 2961/12a), Malešice (Počernická 524/64), Skalka (Lounských 4), Vršovická (Ruská 24), Strašnice (Starostrašnická 126/4), Hostivař (Trhanovské nám. 2040/8), Sedmička (Přípotoční 1519/10c) a Korunní (Korunní 68). Vyber všechny zajímavé akce pro rodiny s dětmi i dospělé – čtení, workshopy, koncerty, výstavy, dětské programy. Tato sekce by měla být jednou z nejobsáhlejších v newsletteru.
 6) Vyber tip nějaké hezké kavárny/herny, která se zaměřuje na děti. Stylem to může být něco jako Jámy na Zahradním městě, mámy v rejži, apod. 
 7) Vyber tip na jednu procházku na nějaké méně známé místo na Praze 10. 
 8) Vyber jeden další tip toho specificky pro Zahradní město (odehrává se tam něco alespoň trochu zajímavého?).
